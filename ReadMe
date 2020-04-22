@@ -1,0 +1,14 @@
+1. My assignment conatins 3 files smukka1_assignment1.c, makefile and readme.textfiles
+2. smukka1_assignment1.c has all the functionalities asked 
+3. To compile that simply give make (compiles smukka1_assignment1.c and produces executable file named final)
+4. To run the file simply give ./final
+
+Steps to test my code:
+1. By running ./output it gives you >sh550 as output
+2. Give command ls, it gives output
+3. For multiple arguments give ls -lrt, it gives output
+4. For backgroung processes simply give sleep 10 & and the process goes into background 
+5. we can generate multiple background processes with the step 4
+6. By entering listjobs command, it will list all the background processes and their status
+7. To bringback a process to foreground just enter fg and pid listed in step 6, shell brings back the background process and waits for it to complete
+
